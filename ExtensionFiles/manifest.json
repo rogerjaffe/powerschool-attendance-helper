@@ -1,0 +1,17 @@
+{
+	"name": "PowerSchool Fix Attendance Columns",
+	"version": "1.2",
+	"manifest_version": 2,
+	"description": "Fix stupid PowerSchool attendance column widths",
+	"permissions": ["storage"],
+	"content_scripts": [
+		{
+			"matches": [
+				"https://powerschool.sandi.net/teachers/classattendance.html?*",
+				"https://powerschool.sandi.net/teachers/seatingchartcontainer.action?*"
+			],
+			"js": ["jquery-2.2.2.min.js", "powerSchoolFixColumns.js"],
+			"run_at": "document_end"
+		}
+	]
+}
