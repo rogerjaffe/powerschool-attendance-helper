@@ -1,5 +1,6 @@
 $(document).ready(function() {
-	$($('col')[0]).attr('style','width: 350px');
+	$($('col')[0]).attr('style','width: 300px');
+	$($('col')[1]).attr('style','width: 300px');
 	$('[name="att_attcodelist"]').val('A');
 	setTimeout(poll, 300);
 });
