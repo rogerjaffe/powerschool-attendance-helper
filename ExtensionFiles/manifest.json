@@ -1,7 +1,7 @@
 {
 	"name": "PowerSchool Fix Attendance Columns",
 	"version": "1.2",
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"description": "Fix stupid PowerSchool attendance column widths",
 	"permissions": ["storage"],
 	"content_scripts": [
